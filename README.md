@@ -8,8 +8,6 @@ Kopi Koffee is a local San Francisco coffee shop run by a Filipino family that i
 
 
 ## Authors
-
-Contributors names and contact info
 [@masterflexyike](https://twitter.com/masterflexyike)
 
 
