@@ -78,7 +78,7 @@
                   active, click below for our Jeepney Hours or General Menu</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
-                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Jeepney Info!</a>
+                  <a href="#about" class="btn-menu animate__animated animate__fadeInUp scrollto">Jeepney Info!</a>
 
                 </div>
               </div>
@@ -170,13 +170,39 @@
                 <li><i class="bx bx-check-double"></i> PROOF OF VACCINATION IS REQUIRED regardless of County Mandate for
                   safety</li>
                 <li><i class="bx bx-check-double"></i> Our outside seating has remained open and available and we are
-                  very dog friendly!</li>
+                  dog friendly!</li>
               </ul>
 
             </div>
-
           </div>
+          <div id="moveit">
+            <div>
+              <h3>Jeepney Hours</h3>
+              <h4> Updated as of: <span id="date"></span></h4>
+              <span>Our truck hangs around the Financial District spot near <br> the intersection of Sacramento and
+                Davis
+                in
+                the
+                morning <br>and mid-day at the Marina on Chesnut and Mallorca! </span>
+              <ul>
+                <li>Tuesday-Friday <ul>
+                    <li>Financial District - 5:00 A.M. - 10:30 A.M.</li>
+                    <li>Marina - 11:10 A.M. - 4:45 A.M.</li>
 
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+            <iframe style="border:0; width: 20%; height: 250px;"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.8119396335624!2d-122.39998768500186!3d37.79444681880109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858061123d7f05%3A0x75405d73f7f230af!2sSacramento%20St%20%26%20Davis%20St%2C%20San%20Francisco%2C%20CA%2094111!5e0!3m2!1sen!2sus!4v1653268406740!5m2!1sen!2sus"
+              frameborder="0" allowfullscreen="">
+            </iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.1357468948252!2d-122.43803779104911!3d37.80074874385566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580d73bbbf23b%3A0xaad439e3f0596e79!2sMallorca%20Way%20%26%20Chestnut%20St%2C%20San%20Francisco%2C%20CA%2094123!5e0!3m2!1sen!2sus!4v1653268609575!5m2!1sen!2sus"
+              width=20% height="250" style="border:0;" allowfullscreen=""
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
 
       </div>
@@ -434,7 +460,7 @@ An espresso that's watered down with milk
           </p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+        <form action="post" data-netlify="true" class="php-email-form">
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
@@ -532,7 +558,7 @@ An espresso that's watered down with milk
           </div>
         </div>
 
-        <form action=" forms/contact.php" method="post" role="form" class="php-email-form">
+        <form data-netlify="true" action="post" class="php-email-form">
           <div class="row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
